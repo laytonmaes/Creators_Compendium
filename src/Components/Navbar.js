@@ -8,16 +8,15 @@ const Navbar = ({ displayedPage }) => {
                 <img className="logo-header" src={logoSmall} alt="Logo of Book" />
                 <h1>Creators Compendium</h1>
             </section>
-            <span className="splitter" />
             <section className="sub-header">
                 <h2>{displayedPage}</h2>
                 <div className="menu-button">
-                    <span className="line line1"></span>
-                    <span className="line line2"></span>
-                    <span className="line line3"></span>
+                    <div className="line line1"></div>
+                    <div className="line line2"></div>
+                    <div className="line line3"></div>
                 </div>
-                <span className="splitter" />
             </section>
+            <span className="splitter-default" />
         </header>
     )
 }

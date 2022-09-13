@@ -1,0 +1,6 @@
+@mixin splitter($length) {
+    background-color: $midGrey;
+    height: 3px;
+    margin: 5px 0px;
+    width: $length;
+}

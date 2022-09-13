@@ -3,13 +3,15 @@ import "../Styles/global.scss"
 
 // ================= components ================= //
 import Navbar from './Navbar';
+import ScribblePage from './ScribblePage';
 
 function App() {
-  const [displayedPage, setDisplayedPage] = useState("scribble")
+  const [displayedPage, setDisplayedPage] = useState("Scribble Board")
   return (
-    <main>
+    <>
       <Navbar displayedPage={displayedPage} />
-    </main>
+      <ScribblePage />
+    </>
   );
 }
 

@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1,h2 {
+    color: $white;
+    margin: 0;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh;
+    background-color: $midGrey;
+}
+
+.logo-header {
+    height: 7vh;
+}
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh;
+}
+
+.menu-button {
+    height: 4vh;
+    width: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.line {
+    background-color: $white;
+    height: .6vh;
+    border-radius: 25px;
+    width: 100%;
+}
