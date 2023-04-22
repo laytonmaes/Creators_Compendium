@@ -39,6 +39,11 @@
 
 //  ========= main ======== //
 
+body, #root {
+  min-height: 100vh;
+
+}
+
 * {
   color: $white;
 }

@@ -4,13 +4,15 @@ import "../Styles/global.scss"
 // ================= components ================= //
 import Navbar from './Navbar';
 import ScribblePage from './ScribblePage';
+import Footer from './Footer';
 
-function App() {
+const App = () => {
   const [displayedPage, setDisplayedPage] = useState("Scribble Board")
   return (
     <>
       <Navbar displayedPage={displayedPage} />
       <ScribblePage />
+      <Footer />
     </>
   );
 }
