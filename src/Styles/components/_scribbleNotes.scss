@@ -1,16 +1,78 @@
+// --------------  should have its own page -------------- //
+.tags-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.tags-div-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tags-div-two {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-tags {
+    width: 45%;
+    height: 100%;
+}
+
+.tags-button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.add-note {
+    display: flex;
+    align-items: center;
+    background-color: $darkestGrey;
+    border: none;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.add-note-name {
+    margin: 1vh;
+    font-size: 2vh;
+}
+
+
+// --------------  actual notes component -------------- //
+
 .note-container {
     display: flex;
     flex-direction: column;
     position: relative;
     height: 52vh;
     width: 90vw;
+    overflow-y: hidden;
+}
+
+.note-content{ 
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
     overflow-y: scroll;
 }
 
-.note-shadow {
+.note-content:after {
+    content: "";
     position: absolute;
-    box-shadow: inset 0px 5vh 5vh red;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), $darkestGrey,);
 }
+
 .settings-cog {
     height: 3vh;
     background-color: white;
