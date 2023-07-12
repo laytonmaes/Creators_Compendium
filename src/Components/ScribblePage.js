@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../Assets/bookMark.svg"
+import searchIcon from "../Assets/searchIcon.svg"
 import { useState } from "react";
 
 import data from "../mockData";
@@ -14,13 +15,21 @@ const ScribblePage = () => {
             <section className="tags-nav">
                 <div className="tags-div-one">
                     <button className="tags-button">
-                        <img className="banner" src={banner} alt="Tags Banner" />
+                        <img className="icon" src={banner} alt="Tags Banner" />
                         <h3>Manage Tags</h3>
                     </button>
                     <select className="filter-tags"></select>
                 </div>
                 <div className="tags-div-two">
-                    <input className="search-tags"></input>
+                    <button className="enter-search-tags">
+                        <img 
+                        className="icon-search" src={searchIcon} alt="Tags"
+                        />
+                    </button>
+                    <input 
+                    className="search-tags" 
+                    placeholder="Search Tag by a Word">
+                    </input>
                 </div>
                 <span className="splitter-default" />
             </section>
