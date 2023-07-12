@@ -9,6 +9,7 @@ import data from "../mockData";
 import ScribbleNotes from "./ScribbleNotes";
 
 const ScribblePage = () => {
+    const [tagSearch, setTagSearch] = useState("")
     const [notesData, setNotesData] = useState(data.basicNotes)
     return (
         <main>
@@ -27,8 +28,13 @@ const ScribblePage = () => {
                         />
                     </button>
                     <input 
+                    type="text"
                     className="search-tags" 
-                    placeholder="Search Tag by a Word">
+                    placeholder="Search Tag by a Word"
+                    name="search-tags"
+                    value={tagSearch}
+                    onChange={event => setTagSearch(event.target.value)}
+                    >
                     </input>
                 </div>
                 <span className="splitter-default" />

@@ -4,7 +4,6 @@ import ScribbleCard from "./ScribbleCard";
 
 const ScribbleNotes = ({notesData}) => {
     const notes = notesData.map((data) => {
-        console.log("here")
         return(
         <ScribbleCard 
         tag={data.tag}
