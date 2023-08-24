@@ -82,6 +82,11 @@ Table
         3) as a user, I should be able to search for relevant terms, and terms perhaps should be tagged.
         4) as a user, I should be able to see basic definitions and usages for each term.
 
+### Extra Thoughts and Stretches
+    1) i think there should be a universal board that is accessible in multiple places, allowing you to pin info, clear pins, search different pages and notes and glossary, etc. the complex notes and text editor at least would use it. could also add a seperate tab in board for favorited items if thats a thing
+    2) i spoke to a tutorial and maybe upon first bootup all pages have a default note that if you click it starts the tutorial for that page. or its just tucked into the hamburger menu
+    3)a cool feature would be different themes a user could use, for inspiration or whatever. make it so a user maybe can import a background image. (if this is a thing, need to have robust text styles that can bee seen on any background)
+
 ### Links
 
     Organization Figjam Board-  https://www.figma.com/file/Io6jJfcICANfTCQqVAfXSt/creators-compendium?type=whiteboard&node-id=0-1&t=EL3so0q0CLbuIc1h-0
