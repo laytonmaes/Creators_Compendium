@@ -12,8 +12,6 @@ Table
     <li><a href="#brief-roadmap">roadmap</a></li>
     <li><a href="#user-stories">User Stories</a></li>
     <li><a href="#links">Links</a></li>
-    <li><a href="#">Acknowledgments</a></li>
-    <li><a href="#">Planning Resources</a></li>
   </ol>
 </details>
 
