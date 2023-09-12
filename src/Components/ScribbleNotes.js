@@ -16,10 +16,11 @@ const ScribbleNotes = ({notesData}) => {
     })
 
    return ( 
-   <div className="note-container">
-        <div className="note-shadow"></div>
-        <div className="note-content">
-            {notes}
+    <div className="shadow">
+        <div className="note-container">
+            <div className="note-content">
+                {notes}
+            </div>
         </div>
     </div>
    )

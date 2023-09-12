@@ -9,6 +9,7 @@ header h1,h2 {
 }
 
 .main-nav {
+    height: 3vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,8 +19,9 @@ header h1,h2 {
 }
 
 .logo-header {
-    height: 7vh;
+    height: 5vh;
 }
+
 .sub-header {
     display: flex;
     flex-direction: row;
